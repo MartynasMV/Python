@@ -36,7 +36,7 @@ def Main():
         print(f"""
 {movie_list[index]} {years_list[index]}.
 The movie is rated {rating_list[index]}/10 and currently positioned #{index}.
-Starring: {actors_list[index]}and directed by{director_list[index]}.
+Starring: {actors_list[index]} and directed by {director_list[index]}.
 """)
         user_input = input('Do you want another pick? y/n')
         while user_input != 'y' and user_input != 'n':
